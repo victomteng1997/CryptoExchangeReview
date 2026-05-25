@@ -2,7 +2,7 @@
 
 Static review site for crypto exchanges, built with Astro and ready for GitHub Pages.
 
-**Default URL**: `https://greydgl.github.io/CryptoExchangeReview/`
+**Default URL**: `https://victomteng1997.github.io/CryptoExchangeReview/`
 
 ## Local development
 
@@ -28,7 +28,7 @@ Push this project to a GitHub repository named `CryptoExchangeReview` and enable
 Default deploy target:
 
 ```js
-const SITE_URL = 'https://greydgl.github.io';
+const SITE_URL = 'https://victomteng1997.github.io';
 const BASE_PATH = '/CryptoExchangeReview';
 ```
 
