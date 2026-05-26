@@ -49,7 +49,7 @@ const rest = sorted.slice(1, 6);
 
     {rest.length > 0 && (
       <div class="latest__list">
-        <p class="eyebrow latest__heading">More reviews</p>
+        <p class="eyebrow latest__heading">More reviews / Más reseñas</p>
         {rest.map((entry) => (
           <ReviewCard
             href={link(`/reviews/${entry.id}`)}
@@ -66,13 +66,13 @@ const rest = sorted.slice(1, 6);
 
     {sorted.length === 0 && (
       <p class="latest__empty">
-        First review coming soon. <a href={link('/about')}>About this site →</a>
+        First review coming soon. Primera reseña próximamente. <a href={link('/about')}>About this site / Acerca del sitio →</a>
       </p>
     )}
 
     {sorted.length > 6 && (
       <p class="latest__more">
-        <a href={link('/reviews')}>See all reviews →</a>
+        <a href={link('/reviews')}>See all reviews / Ver todas las reseñas →</a>
       </p>
     )}
   </section>
